@@ -1,17 +1,32 @@
 [
     {
-        "question": "Is it working?",
+        "question": "After applying the Hadamard operator, what is the probability of finding the state |0>?",
         "type": "many_choice",
         "answers": [
             {
-                "answer": "Yes",
-                "correct": true,
-                "feedback": "Thanks for the confirmation!"
+                "answer": "0.1",
+                "correct": false,
+                "feedback": "Incorrect!"
             },
             {
-                "answer": "No",
+                "answer": "0.25",
                 "correct": false,
-                "feedback": "I am sorry!"
+                "feedback": "Incorrect!"
+            },
+            {
+                "answer": "0.5",
+                "correct": true,
+                "feedback": "Correct, the probability of finding |0> is 50%!"
+            },
+            {
+                "answer": "0.75",
+                "correct": false,
+                "feedback": "Incorrect!"
+            }, 
+            {
+                "answer": "1",
+                "correct": false,
+                "feedback": "Incorrect!"
             }
         ]
     }
