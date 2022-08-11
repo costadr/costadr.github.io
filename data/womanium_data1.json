@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Is it working?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Yes",
+                "correct": true,
+                "feedback": "Thanks for the confirmation!"
+            },
+            {
+                "answer": "No",
+                "correct": false,
+                "feedback": "I am sorry!"
+            }
+        ]
+    }
+]
