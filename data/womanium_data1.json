@@ -16,7 +16,7 @@
             {
                 "answer": "0.5",
                 "correct": true,
-                "feedback": "Correct, the probability of finding |0> is 50%!"
+                "feedback": "Correct, <br> the probability of finding |0> is 50%!"
             },
             {
                 "answer": "0.75",
