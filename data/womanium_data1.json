@@ -1,6 +1,6 @@
 [
     {
-        "question": "After applying the Hadamard operator, what is the probability of finding the state |0>?",
+        "question": "Answer:",
         "type": "many_choice",
         "answers": [
             {
