@@ -2,4 +2,9 @@
 
 teste para ver se funciona
 
-$x=1$
+# Google Cloud
+
+*Copiar arquivo do Bucket*:
+```console
+gsutil cp link_do.zip .
+```
