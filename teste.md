@@ -11,7 +11,22 @@ gsutil cp link_do.zip .
 
 # Docker 
 
+
+```Dockerfile
+FROM python:3.10.10-slim-buster
+
+WORKDIR /usr/src/app
+COPY . /usr/src/app
+
+RUN pip install --upgrade pip 
+RUN pip install -r requirements.txt
+
+EXPOSE 8008
+
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8008"]
 ```
-docker build -t nome_imagem .
-docker run --name nome_container -p PPPP:PPPP nome_imagem  
+
+```console
+docker build -t nome_da_imagem .
+docker run -p 8008:8008 --name nome_do_container -d nome_da_imagem  
 ```
