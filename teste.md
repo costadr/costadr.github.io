@@ -9,7 +9,7 @@ Lista de comandos úteis
 gsutil cp link_do.zip .
 ```
 
-#Docker 
+# Docker 
 
 ```
 docker build -t nome_imagem .
