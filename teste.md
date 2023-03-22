@@ -21,7 +21,7 @@ gcloud artifacts locations list # lista de repositórios compatíveis
 ```powershell
 gcloud auth configure-docker us-central1-docker.pkg.dev
 docker tag [SOURCE_IMAGE] us-central1-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY]/[IMAGE]
-docker push us-central1-docker.pkg.dev/[PROJECT_ID]/bitsaas-microservices/[IMAGE]
+docker push us-central1-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY]/[IMAGE]
 ```
 
 # Docker 
