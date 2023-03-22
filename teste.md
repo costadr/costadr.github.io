@@ -26,7 +26,7 @@ docker push us-central1-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY]/[IMAGE]
 
 # Docker 
 
-
+Exemplo de Dockerfile
 ```Dockerfile
 FROM python:3.10.10-slim-buster
 
@@ -41,6 +41,7 @@ EXPOSE 8008
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8008"]
 ```
 
+Comandos para criar imagem e container
 ```console
 docker build -t nome_da_imagem .
 docker run -p 8008:8008 --name nome_do_container -d nome_da_imagem  
