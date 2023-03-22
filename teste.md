@@ -9,6 +9,20 @@ Lista de comandos úteis
 gsutil cp link_do.zip .
 ```
 
+```powershell
+gcloud init
+gcloud auth login
+gcloud auth configure-docker us-central1-docker.pkg.dev
+gcloud artifacts locations list # lista de repositórios compatíveis
+```
+
+Enviar imagem para o Artifact Registry
+```powershell
+gcloud auth configure-docker us-central1-docker.pkg.dev
+docker tag [SOURCE_IMAGE] us-central1-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY]/[IMAGE]
+docker push us-central1-docker.pkg.dev/[PROJECT_ID]/bitsaas-microservices/[IMAGE]
+```
+
 # Docker 
 
 
