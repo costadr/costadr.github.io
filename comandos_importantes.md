@@ -46,3 +46,8 @@ Comandos para criar imagem e container
 docker build -t nome_da_imagem .
 docker run -p 8008:8008 --name nome_do_container -d nome_da_imagem  
 ```
+
+# Github
+```console
+git clone url_do_repositorio -b nome_da_branch
+```
