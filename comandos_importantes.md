@@ -53,7 +53,7 @@ git clone url_do_repositorio -b nome_da_branch
 ```
 
 To start over, downloading thebranch and overwriting all your local changes 
-'''console
+```console
 git checkout thebranch
 git reset --hard origin/thebranch
-'''
+```
