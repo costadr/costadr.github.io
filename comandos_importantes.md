@@ -69,3 +69,9 @@ Check last errors raised by **gunicorn**:
 ```console
 less +G gunicorn-error-log
 ```
+
+Restart Service and Socket of the Server
+```console
+sudo systemctl restart <NAME>.service
+sudo systemctl restart <NAME>.socket
+```
