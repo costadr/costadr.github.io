@@ -57,3 +57,8 @@ To start over, downloading thebranch and overwriting all your local changes
 git checkout thebranch
 git reset --hard origin/thebranch
 ```
+
+Command to display the information for the latest commit in your local repository:
+```console
+git log -n 1
+```
