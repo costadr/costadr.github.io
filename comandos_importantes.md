@@ -62,3 +62,10 @@ Command to display the information for the latest commit in your local repositor
 ```console
 git log -n 1
 ```
+
+# Django 
+
+Check last errors raised by **gunicorn**:
+```console
+less +G gunicorn-error-log
+```
