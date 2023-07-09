@@ -52,7 +52,7 @@ docker run -p 8008:8008 --name nome_do_container -d nome_da_imagem
 git clone url_do_repositorio -b nome_da_branch
 ```
 
-To start over, downloading thebranch and overwriting all your local changes 
+To start over, downloading thebranch and overwriting all your local changes (undo and remove changes)
 ```console
 git checkout thebranch
 git reset --hard origin/thebranch
