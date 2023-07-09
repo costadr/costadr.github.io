@@ -70,6 +70,14 @@ Check last errors raised by **gunicorn**:
 less +G gunicorn-error-log
 ```
 
+```console
+# clean gunicorn logs
+echo '' > gunicorn-error-log
+
+# Check gunicorn file
+tail -f gunicorn-error-log
+```
+
 Restart Service and Socket of the Server
 ```console
 sudo systemctl restart <NAME>.service
