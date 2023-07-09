@@ -74,7 +74,7 @@ less +G gunicorn-error-log
 # clean gunicorn logs
 echo '' > gunicorn-error-log
 
-# Listen to the last modification in the file (similar to the Watch functionality)
+# Listen to the last modification (similar to the Watch functionality)
 tail -f gunicorn-error-log
 ```
 
