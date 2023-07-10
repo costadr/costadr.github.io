@@ -67,7 +67,8 @@ git log -n 1
 
 ```console
 # Create a folder with translations
-python manage.py makemessages -l "pt_br" -i 'venv'
+python manage.py makemessages -l "pt_BR" -i 'venv'
+python manage.py compilemessages -l "pt_BR" -i 'venv'
 ```
 
 Check last errors raised by **gunicorn**:
