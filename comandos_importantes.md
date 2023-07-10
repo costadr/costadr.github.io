@@ -65,6 +65,11 @@ git log -n 1
 
 # Django 
 
+```console
+# Create a folder with translations
+python manage.py makemessages -l "pt_br" -i 'venv'
+```
+
 Check last errors raised by **gunicorn**:
 ```console
 less +G gunicorn-error-log
