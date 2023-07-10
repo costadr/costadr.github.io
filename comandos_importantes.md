@@ -66,6 +66,9 @@ git log -n 1
 # Django 
 
 ```console
+# GNU gettext is an important step for the GNU Translation Project
+https://mlocati.github.io/articles/gettext-iconv-windows.html
+
 # Create a folder with translations
 python manage.py makemessages -l "pt_BR" -i 'venv'
 python manage.py compilemessages -l "pt_BR" -i 'venv'
