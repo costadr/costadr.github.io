@@ -1,5 +1,5 @@
 # How to connect to a Postgresql, insert a line and select all lines
-```console
+```python
 import psycopg2
 
 
