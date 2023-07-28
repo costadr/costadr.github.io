@@ -1,3 +1,15 @@
+# How to create a table in Postgresql
+
+```sql
+create table mytable (
+  id SERIAL PRIMARY KEY, 
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  age INTEGER NOT NULL,
+  email VARCHAR(100) NOT NULL
+);
+```
+
 # How to connect to a Postgresql, insert a line and select all lines
 ```python
 import psycopg2
